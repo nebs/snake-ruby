@@ -1,6 +1,6 @@
-require_relative 'grid2d'
-require_relative 'snake'
-require_relative 'game'
+require_relative 'snake/grid2d'
+require_relative 'snake/snake'
+require_relative 'snake/game'
 
 puts '~~~SNAKE~~~'
 grid  = Grid2D.new(20,20)
